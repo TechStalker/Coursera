@@ -1,0 +1,81 @@
+*{
+
+  font-family: "Brush Script MT", cursive;
+}
+h1{
+  text-align: center;
+}
+.chkn{
+  float: right;
+  clear:both;
+  background-color: #f5a6ac;
+  border: 1px solid black;
+  width:20%;
+  text-align: center;
+
+}
+.bf_h{
+  float: right;
+  clear:both;
+  background-color:   #eb6e81;
+  border: 1px solid black;
+  width:20%;
+  text-align: center;
+
+}
+.sh_h{
+  float: right;
+  clear:both;
+  background-color: #f5f7e9;
+  border: 1px solid black;
+  width:20%;
+  text-align: center;
+
+}
+
+
+p{width: 70%;
+  height:150px;
+  color:white;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+@media(min-width: 992px){
+  .col-lg-4{
+    float:left;
+    margin-right: 5px;
+    margin-left: auto;
+    border: 1px solid black;
+    background-color:#7a7a7a;
+    width: 32%;
+  }
+}
+@media(min-width: 768px) and (max-width: 991px){
+  .col-md-6 {
+    float:left;
+    width:49%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    background-color:gray;
+  }
+  .col-md-12{
+    float:left;
+    border: 1px solid black;
+    background-color:#7a7a7a;
+    width: 100%;
+  }
+  
+}
+@media(max-width: 767px){
+  .col-sm-12{
+    float:left;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    background-color:#7a7a7a;
+    width: 100%;
+  }
+ 
